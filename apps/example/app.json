@@ -1,0 +1,6 @@
+{
+  "name": "Text statistics",
+  "description": "Synthetic starter module: count words and characters without sending content to an AI service.",
+  "version": "1.0.0",
+  "icon": "FileText"
+}
