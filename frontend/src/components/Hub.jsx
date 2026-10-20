@@ -124,11 +124,11 @@ export default function Hub() {
             >
               <img
                 src="/images/mark.svg"
-                alt="Beyond Human"
+                alt="Modular AI Workbench"
                 className="w-6 h-6 rounded-md object-cover"
                 onError={(e) => { e.currentTarget.style.display='none'; }}
               />
-              Beyond Human — AI App Development
+              Modular AI Workbench — AI App Development
             </motion.div>
 
             {/* Headline */}
@@ -178,7 +178,7 @@ export default function Hub() {
               <div className="absolute inset-[-12px] rounded-full bg-gradient-to-br from-blue-400/20 to-indigo-400/20 blur-xl" />
               <img
                 src="/images/mark.svg"
-                alt="Beyond Human"
+                alt="Modular AI Workbench"
                 className="relative w-48 h-48 rounded-3xl object-cover shadow-xl border border-white/80"
                 onError={(e) => {
                   e.currentTarget.parentElement.innerHTML =
@@ -187,7 +187,7 @@ export default function Hub() {
               />
             </div>
             <div className="text-center">
-              <p className="text-sm font-semibold text-slate-700">Beyond Human</p>
+              <p className="text-sm font-semibold text-slate-700">Modular AI Workbench</p>
               <p className="text-xs text-slate-400">AI App Development</p>
             </div>
           </motion.div>

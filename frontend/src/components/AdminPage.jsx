@@ -4,12 +4,7 @@ import {
   ShieldCheck, User, Eye, EyeOff, LayoutGrid,
 } from 'lucide-react';
 
-const ALL_APPS = [
-  { id: 'ats', label: 'ATS Shortlisting' },
-  { id: 'abi', label: 'Multimodal Report Studio' },
-  { id: 'tsf', label: 'Smith Family Donations' },
-  { id: 'ama', label: 'AI Migration Assistant' },
-];
+const ALL_APPS = [{ id: 'example', label: 'Example App' }];
 
 // ── API helpers ───────────────────────────────────────────────────────────────
 

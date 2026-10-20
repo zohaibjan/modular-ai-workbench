@@ -82,7 +82,7 @@ function App() {
                 className="w-5 h-5 rounded object-cover opacity-60"
                 onError={(e) => { e.currentTarget.style.display='none'; }}
               />
-              <span className="text-xs text-slate-400 font-medium">Beyond Human — Hub Platform</span>
+              <span className="text-xs text-slate-400 font-medium">Modular AI Workbench — Hub Platform</span>
             </div>
             <span className="text-xs text-slate-400">
               &copy; {new Date().getFullYear()} &nbsp;&mdash;&nbsp; AI-assisted tools. Always verify with a qualified professional.

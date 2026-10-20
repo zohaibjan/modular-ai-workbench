@@ -61,11 +61,11 @@ export default function LoginPage({ onLogin }) {
         <div className="relative z-10 text-center px-10">
           <img
             src="/images/mark.svg"
-            alt="Beyond Human"
+            alt="Modular AI Workbench"
             className="w-28 h-28 rounded-3xl object-cover mx-auto mb-6 shadow-2xl border-2 border-white/10"
             onError={(e) => { e.currentTarget.style.display = 'none'; }}
           />
-          <h1 className="text-3xl font-bold text-white mb-2 tracking-tight">Beyond Human</h1>
+          <h1 className="text-3xl font-bold text-white mb-2 tracking-tight">Modular AI Workbench</h1>
           <p className="text-blue-300 text-sm font-medium mb-8">AI App Development</p>
 
           <div className="space-y-3 text-left max-w-xs mx-auto">
@@ -84,7 +84,7 @@ export default function LoginPage({ onLogin }) {
 
         {/* Bottom label */}
         <p className="absolute bottom-6 text-xs text-slate-600">
-          &copy; {new Date().getFullYear()} Beyond Human — Hub Platform
+          &copy; {new Date().getFullYear()} Modular AI Workbench — Hub Platform
         </p>
       </div>
 
@@ -96,12 +96,12 @@ export default function LoginPage({ onLogin }) {
           <div className="flex items-center gap-3 mb-10 lg:hidden">
             <img
               src="/images/mark.svg"
-              alt="Beyond Human"
+              alt="Modular AI Workbench"
               className="w-10 h-10 rounded-xl object-cover shadow"
               onError={(e) => { e.currentTarget.style.display = 'none'; }}
             />
             <div>
-              <p className="font-bold text-slate-900 text-sm">Beyond Human</p>
+              <p className="font-bold text-slate-900 text-sm">Modular AI Workbench</p>
               <p className="text-xs text-slate-400">Hub Platform</p>
             </div>
           </div>

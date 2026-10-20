@@ -13,7 +13,7 @@ function BrandLogo({ size = 'md' }) {
     return (
       <img
         src="/images/mark.svg"
-        alt="Beyond Human"
+        alt="Modular AI Workbench"
         onError={() => setErr(true)}
         className={`${cls} object-cover shadow-sm border border-white/20`}
       />
@@ -28,12 +28,7 @@ function BrandLogo({ size = 'md' }) {
 
 export { BrandLogo };
 
-const APP_LABELS = {
-  ats: 'ATS Shortlisting',
-  abi: 'Multimodal Report Studio',
-  tsf: 'Smith Family Donations',
-  ama: 'AI Migration Assistant',
-};
+const APP_LABELS = { example: 'Example App' };
 
 function Header({ user, onLogout }) {
   const { pathname } = useLocation();
@@ -50,7 +45,7 @@ function Header({ user, onLogout }) {
           <Link to="/" className="flex items-center gap-2.5 group shrink-0">
             <BrandLogo />
             <div className="flex flex-col leading-tight">
-              <span className="font-bold text-sm text-slate-900 leading-none">Beyond Human</span>
+              <span className="font-bold text-sm text-slate-900 leading-none">Modular AI Workbench</span>
               <span className="text-[10px] text-slate-400 font-medium leading-none mt-0.5 hidden sm:block">Hub Platform</span>
             </div>
           </Link>
